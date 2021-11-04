@@ -449,6 +449,12 @@ footer{
 		width: 80%;
 		margin-bottom: 40px;
 	}
+	.logossg{
+	position: fixed;
+	top: 50px;
+	left: 80px;
+	font-size: 10px;
+	}
 }
 
 @media screen and (max-width:500px){
@@ -491,11 +497,12 @@ footer{
 	width: 70px;
 	height: 70px;
 	}
+	
 	.logossg{
-		position: fixed;
-		top: 50px;
-		left: 80px;
-		font-size: 10px;
-		}
+	position: fixed;
+	top: 50px;
+	left: 80px;
+	font-size: 10px;
+	}
 
 }
