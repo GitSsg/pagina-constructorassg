@@ -481,35 +481,35 @@ footer{
 
 @media screen and (max-width:500px){
 	.menu-navegacion{
-		width: 65vw;
+	width: 65vw;
 	}
 
 	.Hamburguer{
-		top: 20px;
-		right: 20px;
+	top: 20px;
+	right: 20px;
 	}
 
 	.titulo{
-		font-size: 30px;
+	font-size: 30px;
 	}
 
 	.subtitulo{
-		font-size: 30px;
+	font-size: 30px;
 	}
 	.agregar-imagen{
-		width: 95%;
+	width: 95%;
 	}
 
 	.img-galeria{
-		width: 95%;
+	width: 95%;
 	}
 
 	.social-media{
-		width: 100%;
+	width: 100%;
 	}
 
 	.contact-us{
-		width: 90%;
+	width: 90%;
 	}
 
 	.Logo{
@@ -527,7 +527,7 @@ footer{
 	font-size: 10px;
 	}
 	
-	left
+	.left
 	{
 	position:absolute;
 	top: 50%;
@@ -552,35 +552,36 @@ footer{
 
 @media screen and (max-width:300px){
 	.menu-navegacion{
-		width: 50vw;
+	width: 50vw;
 	}
 
 	.Hamburguer{
-		top: 30px;
-		right: 60px;
+	top: 30px;
+	right: 60px;
 	}
 
 	.titulo{
-		font-size: 30px;
+	font-size: 30px;
 	}
 
 	.subtitulo{
-		font-size: 30px;
+	font-size: 30px;
 	}
+	
 	.agregar-imagen{
-		width: 95%;
+	width: 95%;
 	}
 
 	.img-galeria{
-		width: 95%;
+	width: 95%;
 	}
 
 	.social-media{
-		width: 100%;
+	width: 100%;
 	}
 
 	.contact-us{
-		width: 90%;
+	width: 90%;
 	}
 
 	.Logo{
