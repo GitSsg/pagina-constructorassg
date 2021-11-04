@@ -108,10 +108,9 @@ body{
 	position: fixed;
 	top: 0;
 	right: 0;
-	width: 25vw;
+	width: 20vw;
 	height: 100%;
-	background-image: linear-gradient(to left, #BDBBBE 0%, hsla(230, 3%, 63%, 0.39) 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
- 	background-blend-mode: normal, lighten, soft-light;
+	background-image: linear-gradient(to right, #434343 0%, black 100%);
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
@@ -137,7 +136,7 @@ nav >a:hover{
 
 .menu-navegacion a{
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 
 .titulo{
@@ -450,66 +449,115 @@ footer{
 		margin-bottom: 40px;
 	}
 	.logossg{
-	position: fixed;
-	top: 50px;
-	left: 80px;
-	font-size: 10px;
-	}
-	
-	.left{
-	position:absolute;
-	top: 50%;
-	right: 400px;
-	width: 20px;
-	cursor: pointer;
-	z-index: 1;
-	}
-		
-	.right{
-	position:absolute;
-	top: 50%;
-	left: 320px;
-	width: 20px;
-	cursor: pointer;
-	z-index: 1;
-	}	
+		position: fixed;
+		top: 50px;
+		left: 80px;
+		font-size: 10px;
+		}
 
-	.telefono{
-	font-size: 15px;
-	}
 }
 
 @media screen and (max-width:500px){
 	.menu-navegacion{
-	width: 65vw;
+		width: 50vw;
 	}
 
 	.Hamburguer{
-	top: 20px;
-	right: 20px;
+		top: 30px;
+		right: 60px;
 	}
 
 	.titulo{
-	font-size: 30px;
+		font-size: 30px;
 	}
 
 	.subtitulo{
-	font-size: 30px;
+		font-size: 30px;
 	}
 	.agregar-imagen{
-	width: 95%;
+		width: 95%;
 	}
 
 	.img-galeria{
-	width: 95%;
+		width: 95%;
 	}
 
 	.social-media{
-	width: 100%;
+		width: 100%;
 	}
 
 	.contact-us{
-	width: 90%;
+		width: 90%;
+	}
+
+	.Logo{
+	position: fixed;
+	top: 20px;
+	left: 30px;
+	width: 10px;
+	height: 10px;
+	}
+
+	.logossg{
+		position: fixed;
+		top: 50px;
+		left: 80px;
+		font-size: 10px;
+		}
+
+	.left
+	{
+	position:absolute;
+	top: 50%;
+	left: 0px;
+	width: 30px;
+	cursor: pointer;
+	z-index: 1;
+	}
+		
+	.right{
+	position:absolute;
+	top: 50%;
+	right: 10px;
+	width: 30px;
+	cursor: pointer;
+	z-index: 1;
+	}	
+
+	.telefono{
+		font-size: 15px;
+	}
+
+	.menu-navegacion{
+		width: 65vw;
+	}
+
+	.Hamburguer{
+		top: 20px;
+		right: 20px;
+	}
+
+	.titulo{
+		font-size: 30px;
+	}
+
+	.subtitulo{
+		font-size: 30px;
+	}
+	.agregar-imagen{
+		width: 95%;
+	}
+
+	.img-galeria{
+		width: 95%;
+	}
+
+	.social-media{
+		width: 100%;
+	}
+
+	.contact-us{
+		width: 90%;
 	}
 
 	.Logo{
@@ -519,14 +567,14 @@ footer{
 	width: 70px;
 	height: 70px;
 	}
-	
+
 	.logossg{
-	position: fixed;
-	top: 50px;
-	left: 80px;
-	font-size: 10px;
-	}
-	
+		position: fixed;
+		top: 50px;
+		left: 80px;
+		font-size: 10px;
+		}
+
 	.left
 	{
 	position:absolute;
@@ -547,63 +595,67 @@ footer{
 	}	
 
 	.telefono{
-	font-size: 15px;
+		font-size: 15px;
+	}
+
+	.contenedor-phone{
+		top: -50px;
+		position: relative;
 	}
 
 @media screen and (max-width:360px){
 	.menu-navegacion{
-	width: 50vw;
+		width: 50vw;
 	}
 
 	.Hamburguer{
-	top: 30px;
-	right: 60px;
+		top: 30px;
+		right: 60px;
 	}
 
 	.titulo{
-	font-size: 30px;
+		font-size: 30px;
 	}
 
 	.subtitulo{
-	font-size: 30px;
+		font-size: 30px;
 	}
-	
 	.agregar-imagen{
-	width: 95%;
+		width: 95%;
 	}
 
 	.img-galeria{
-	width: 95%;
+		width: 95%;
 	}
 
 	.social-media{
-	width: 100%;
+		width: 100%;
 	}
 
 	.contact-us{
-	width: 90%;
+		width: 90%;
 	}
 
 	.Logo{
 	position: fixed;
 	top: 20px;
 	left: 30px;
-	width: 70px;
-	height: 70px;
+	width: 30px;
+	height: 30px;
 	}
 
 	.logossg{
-	position: fixed;
-	top: 50px;
-	left: 80px;
-	font-size: 10px;
-	}
+		position: fixed;
+		top: 50px;
+		left: 80px;
+		font-size: 10px;
+		}
 
 	.left
 	{
 	position:absolute;
 	top: 50%;
-	right: 400px;
+	left: 150px;
 	width: 20px;
 	cursor: pointer;
 	z-index: 1;
@@ -612,46 +664,46 @@ footer{
 	.right{
 	position:absolute;
 	top: 50%;
-	left: 320px;
+	right: 150px;
 	width: 20px;
 	cursor: pointer;
 	z-index: 1;
 	}	
 
 	.telefono{
-	font-size: 15px;
+		font-size: 15px;
 	}
 
 	.menu-navegacion{
-	width: 65vw;
+		width: 45vw;
 	}
 
 	.Hamburguer{
-	top: 20px;
-	right: 20px;
+		top: 20px;
+		right: 20px;
 	}
 
 	.titulo{
-	font-size: 30px;
+		font-size: 30px;
 	}
 
 	.subtitulo{
-	font-size: 30px;
+		font-size: 30px;
 	}
 	.agregar-imagen{
-	width: 95%;
+		width: 95%;
 	}
 
 	.img-galeria{
-	width: 95%;
+		width: 95%;
 	}
 
 	.social-media{
-	width: 100%;
+		width: 100%;
 	}
 
 	.contact-us{
-	width: 90%;
+		width: 90%;
 	}
 
 	.Logo{
@@ -663,38 +715,38 @@ footer{
 	}
 
 	.logossg{
-	position: fixed;
-	top: 50px;
-	left: 80px;
-	font-size: 10px;
-	}
+		position: fixed;
+		top: 50px;
+		left: 80px;
+		font-size: 10px;
+		}
 
-	.left
-	{
+	#btn-retroceder {
 	position:absolute;
 	top: 50%;
-	right: 400px;
-	width: 20px;
+	left: 20px;
+	width: 30px;
 	cursor: pointer;
 	z-index: 1;
 	}
 		
-	.right{
+	#btn-adelantar{
 	position:absolute;
 	top: 50%;
-	left: 320px;
-	width: 20px;
+	right: 20px;
+	width: 30px;
 	cursor: pointer;
 	z-index: 1;
 	}	
 
 	.telefono{
-	font-size: 15px;
+		font-size: 15px;
 	}
 
 	.contenedor-phone{
-	top: -50px;
-	position: relative;
+		top: -50px;
+		position: relative;
 	}
+	
 
 }
