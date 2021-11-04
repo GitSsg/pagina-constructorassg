@@ -527,25 +527,25 @@ footer{
 	}
 	
 	.left{
-	position:absolute;
-	top: 50%;
-	right: 400px;
-	width: 20px;
-	cursor: pointer;
-	z-index: 1;
+	 position:absolute;
+	 top: 50%;
+	 right: 400px;
+	 width: 20px;
+	 cursor: pointer;
+	 z-index: 1;
 	}
 		
 	.right{
-	position:absolute;
-	top: 50%;
-	left: 320px;
-	width: 20px;
-	cursor: pointer;
-	z-index: 1;
+	 position:absolute;
+	 top: 50%;
+	 left: 320px;
+	 width: 20px;
+	 cursor: pointer;
+	 z-index: 1;
 	}	
 
 	.telefono{
-	font-size: 15px;
+	 font-size: 15px;
 	}
 
 }
